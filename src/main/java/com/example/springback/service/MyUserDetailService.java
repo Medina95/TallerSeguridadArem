@@ -33,7 +33,7 @@ public class MyUserDetailService implements UserDetailsService {
         }
     }
 
-    private String[] getRoles(MyUser user) {
+    public String[] getRoles(MyUser user) {
         if (user.getRole() == null) {
             return new String[]{"USER"};
         }
