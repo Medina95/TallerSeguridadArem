@@ -36,7 +36,7 @@ public class RegistrationControllerTest {
 
     /**
      * Prueba para crear un nuevo usuario
-     * Verifica que un nuevo usuario sea creado y que su contraseña esté codificada.
+     * Verifica que un nuevo usuario sea creado y que su contraseña esté en formato hash.
      */
     @Test
     public void testCreateUser() {

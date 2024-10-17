@@ -37,7 +37,7 @@ public class MyUserDetailServiceTest {
      * **Prueba para cargar un usuario existente**
      *
      * Verifica que un usuario válido sea cargado correctamente
-     * y que las autoridades se asignen adecuadamente.
+     * y que el rol se asigne adecuadamente.
      */
     @Test
     public void testLoadUser() {
@@ -63,7 +63,7 @@ public class MyUserDetailServiceTest {
      * **Prueba para cargar un administrador**
      *
      * Verifica que un usuario con rol ADMIN sea cargado correctamente
-     * y que las autoridades se asignen adecuadamente.
+     * y que el rol se asigne adecuadamente.
      */
     @Test
     public void testLoadAdmin() {
