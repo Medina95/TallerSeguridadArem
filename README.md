@@ -58,7 +58,7 @@ Para ejecutar este proyecto, necesitarás tener instalado:
 5. **IMPORTANTE**:
     - En application.properties tiene que cambiar el usuario en ***spring.datasource.username*** por root o por un usuario que tenga predefinido.
     - En **spring.datasource.password** cambié la contraseña por su contraseña de base de datos.
-    - Finalmente, cambie su IP en **spring.datasource.url** por localhost:3306 o una específica como las de AWS y no olvide que la base se llama arep.
+    - Finalmente, cambie su IP en **spring.datasource.url** por localhost:3306 o una específica como las de AWS y no olvide que la base se llama security.
 
 
 ## Deployment
