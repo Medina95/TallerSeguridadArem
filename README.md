@@ -1,8 +1,11 @@
 # Taller de arquitectura empresarial: Diseño de aplicaciones de seguridad
 
-En este taller, se desarrolló una aplicación segura y escalable utilizando AWS, compuesta por dos componentes principales. El servidor Apache gestiona el frontend, mientras que el servidor de Spring Framework se encarga del backend.
-
+En este taller, se desarrolló una aplicación segura y escalable utilizando AWS de un inicio de sesión, compuesta por dos componentes principales. El servidor Apache gestiona el frontend, mientras que el servidor de Spring Framework se encarga del backend.
+    
 Para garantizar la seguridad, se implementó cifrado TLS utilizando certificados de Let's Encrypt en ambos servidores. Además, mediante Spring Security, se definieron las políticas de autenticación y autorización de usuarios. Las contraseñas se encriptaron utilizando la interfaz PasswordEncoder junto con el algoritmo de hashing bcrypt, lo que asegura un manejo seguro de las credenciales.
+![pruebas](ReadmeImages/inicio.png)
+## Certificados 
+![pruebas](ReadmeImages/certificados%20.png)
 
 ## Arquitectura
 ![pruebas](ReadmeImages/arquitectura.png)
@@ -87,7 +90,7 @@ mvn spring-boot:run
 ## Despliegue en AWS
 
 - **Video**:
-  [despliegue en AWS funcionando](https://drive.google.com/file/d/1ll3aPTMM3jSG-ICfOvjnJYcw2ehXw-0N/view?usp=sharing)
+  [despliegue en AWS funcionando](https://drive.google.com/file/d/18eBQwwp0Fcvpa9YFvllhB8IeszqDq5Di/view?usp=sharing)
 
 
 
